@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* Make everything use border-box */
@@ -10,14 +12,17 @@ body {
 }
 
 nav, header, main, section, article {
-    display: block;
+    display: flex;
     width: 100vw;
+    height: 300px;
     padding: 15px;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 nav {
     background-color: #5995DA;
+    height: 80px;
 }
 
 header {
@@ -44,4 +49,41 @@ section {
 
 .bg-purple {
     background-color: #C8C6FA;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: #F09A9D; /* Red */
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    section,
+    article {
+        width: 50%;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    body {
+        width: 960px;
+        margin: 0 auto;
+    }
+    article {
+        width: 33.3%;
+    }
+    header {
+        height: 400px;
+    }
+    section {
+        height: 200px;
+        order: 1;
+    }
+    main {
+        order: 2;
+    }
 }
