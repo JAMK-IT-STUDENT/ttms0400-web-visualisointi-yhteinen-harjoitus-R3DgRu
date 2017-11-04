@@ -1,0 +1,74 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nappula {
+  padding: 20px 40px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: #4388FF;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.nappula:hover {
+  /* SASSissa käyttäisimme tähän lighten-funktiota! */ 
+  background-color: #90B9FF; 
+}
+.nappula:active {
+  /* Täällä voisimme käyttää darken-funktiota, jos kirjoittelisimma SASS/LESS.. */
+  background-color: #366DCC;
+}
+
+.nappula2 {
+  padding: 30px 30px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: #66ffb3;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.nappula2:hover {
+  /* SASSissa käyttäisimme tähän lighten-funktiota! */ 
+  background-color: #b3ffd9; 
+    border: 2px solid green;
+    color: black;
+}
+.nappula2:active {
+  /* Täällä voisimme käyttää darken-funktiota, jos kirjoittelisimma SASS/LESS.. */
+  background-color: #1aff8c;
+    color: white;
+    border: 2px solid #66ffb3;
+}
+
+.nappula3 {
+  padding: 29px 35px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: #ff33cc;
+  border: none;
+  border-radius: 50px;
+  cursor: crosshair;
+}
+.nappula3:hover {
+  /* SASSissa käyttäisimme tähän lighten-funktiota! */ 
+  background-color: #ffb3ec; 
+    color: brown;
+    border: solid 5px black;
+}
+.nappula3:active {
+  /* Täällä voisimme käyttää darken-funktiota, jos kirjoittelisimma SASS/LESS.. */
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(red, yellow, green); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, yellow, green); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, yellow, green); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(red, yellow, green); /* Standard syntax */
+    padding: 100px; 
+}
