@@ -1,0 +1,105 @@
+/* Make everything use border-box */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Mobile Styles */ 
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: lightblue;
+    }
+    nav {
+        background-color: lightskyblue;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: 100px;
+    }
+    header {
+        margin-top: 80px;
+    }
+    footer {
+        width: 100%;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 1290px) {
+    section,
+    article {
+        width: 50%;
+        padding: 10px;
+    }
+    body {
+        background-color: lightcoral;
+    }
+    nav {
+        background-color: lightpink;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: 100px;
+    }
+    header {
+        margin-top: 80px;
+    }
+    footer {
+        width: 100%;
+    } 
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1291px) {
+    body {
+        width: 960px;
+        margin: 0 auto;
+        background-color: lightgreen;
+    }
+    article {
+        width: 33.3%;
+        padding: 10px;
+        order: 4;
+    }
+    header {
+        width: 100%;
+        text-align: center;
+    }
+    section {
+        order: 2;
+    }
+    main {
+        order: 1;
+    }
+    aside {
+        order: 3;
+    }
+    footer {
+        order: 5;
+        width: 100%;
+    }
+    nav {
+        position:fixed;
+        left: 0px;
+        top: 0px;
+        bottom: 0px;
+        width: 150px;
+        background-color: palegreen;
+    }
+}
