@@ -1,5 +1,7 @@
 # ttms0400-web-visualisointi-yhteinen-harjoitus-R3DgRu
 
+NIMI: Otto Savolainen
+
 Mockup linkki: https://www.fluidui.com/editor/live/preview/cF9JUDAzYVRmcFppeGtrd0xHeU5SaHB1Y2lsSU16S1NTSQ==
 
 Kiintoisia CSS farameworkkeja ja kirjastoja: Bulma, Tachyons ja Animsition
