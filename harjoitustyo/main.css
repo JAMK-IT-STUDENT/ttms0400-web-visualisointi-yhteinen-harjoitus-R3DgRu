@@ -1,5 +1,31 @@
 .animsition {
-    color: #270F15;
+    color: #1D1423;
     font-family: 'Ruda', sans-serif;
-    background-color: #C6B6E2; 
+    background-color: #9264B4; 
 }
+
+main {
+    background-color: #D7C7E4;
+}
+
+.nav-link {
+    color: #1D1423;
+}
+
+.nav-link:hover {
+    color: #D7C7E4;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+ol li a {
+    color: #1D1423;
+}
+
+ol li a:hover {
+    color: #D7C7E4;
+    text-decoration: none;
+}
+

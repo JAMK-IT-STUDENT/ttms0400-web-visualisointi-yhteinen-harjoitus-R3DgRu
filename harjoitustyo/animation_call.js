@@ -1,7 +1,7 @@
 $(document).ready(function() {
       $(".animsition").animsition({
-        inClass: 'fade-in-down',
-        outClass: 'fade-out-down',
+        inClass: 'fade-in-down-lg',
+        outClass: 'fade-out-down-lg',
         inDuration: 1500,
         outDuration: 800,
         linkElement: '.animsition-link',
