@@ -1,31 +1,156 @@
 .animsition {
-    color: #1D1423;
+    color: #1D0F28;
     font-family: 'Ruda', sans-serif;
-    background-color: #9264B4; 
+    background-color: #954DCB; 
 }
 
 main {
-    background-color: #D7C7E4;
+    background-color: #D8BFEC;
+    box-shadow: 0px 10px 10px 10px #60288B; 
+}
+
+footer {
+    background-color: #1D0F28;
+    color: #954DCB;
+}
+
+
+/* vÄLILEHDET */
+.nav-tabs {
+    border-bottom: 1px solid #60288B;
+}
+
+.nav-item {
+    background-color: transparent;
+    border: transparent;
+}
+
+.nav-tabs .nav-link {
+    border: transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.nav-tabs .nav-link.active {
+    color: #60288B;
+    background-color: #D8BFEC;
+    border: transparent;
 }
 
 .nav-link {
-    color: #1D1423;
+    color: #D8BFEC;
+    background-color: #60288B;
 }
 
 .nav-link:hover {
-    color: #D7C7E4;
+    color: #60288B;
+    background-color: #D8BFEC;
+    border: transparent;
 }
 
+.nav-link:active {
+    color: #60288B;
+    background-color: #D8BFEC;
+    border: transparent;
+}
+
+
+/* FOOTERIN NAVIGOINTI */
 .breadcrumb {
     background-color: transparent;
 }
 
 ol li a {
-    color: #1D1423;
+    color: #954DCB;
 }
 
 ol li a:hover {
-    color: #D7C7E4;
+    color: #D8BFEC;
     text-decoration: none;
 }
 
+
+/* DROPDOWN */
+#dropdown {
+    color: #D8BFEC;
+    background-color: #60288B;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#dropdown:hover {
+    color: #60288B;
+    background-color: #D8BFEC;
+    box-shadow: none;
+}
+
+#dropdown:active {
+    color: #60288B;
+    background-color: #D8BFEC;
+    box-shadow: none;
+}
+
+#dropdown:focus {
+    color: #60288B;
+    background-color: #D8BFEC;
+    box-shadow: none;
+}
+
+#dropdown-list {
+    background-color: #D8BFEC;
+    border: none;
+    box-shadow: 0px 0px 10px 4px #60288B;
+    border-radius: 10px;
+}
+
+#dropdown-list a {
+    color: #60288B;
+    background-color: #D8BFEC;
+}
+
+#dropdown-list a:hover {
+    color: #D8BFEC;
+    background-color: #60288B;
+}
+
+
+/* CARDS */
+.card {
+    border: none;
+    color: #D8BFEC;
+    background-color: #954DCB;
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #60288B;
+}
+
+.card-header:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+/* LIST */
+.list-group-item:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.list-group-item:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.list-group-item {
+    color: #D8BFEC;
+    background-color: #954DCB;
+}
+
+.list-group-item-secondary {
+    color: #D8BFEC;
+    background-color: #60288B;
+}
