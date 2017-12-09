@@ -154,3 +154,24 @@ ol li a:hover {
     color: #D8BFEC;
     background-color: #60288B;
 }
+
+/* WIKI ABCD...-BUTTONS */
+.nav-pills .nav-link {
+    border-radius: 10px;
+    margin: 1px;
+}
+
+.col-md-2 a {
+    color: #1D0F28;
+    cursor: pointer;
+}
+
+.col-md-2 a:hover {
+    color: #954DCB;
+    text-decoration: none;
+}
+
+.col-md-2 a:visited {
+    color: #1D0F28;
+    text-decoration: none;
+}
