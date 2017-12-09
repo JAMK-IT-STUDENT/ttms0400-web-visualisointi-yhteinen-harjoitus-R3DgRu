@@ -2,6 +2,8 @@
 
 NIMI: Otto Savolainen
 
+OMA HARJOITUSTYÖ TULEE TÄNNE: http://student.labranet.jamk.fi/~K2534/web-visualisointi/
+
 Mockup linkki: https://www.fluidui.com/editor/live/preview/cF9JUDAzYVRmcFppeGtrd0xHeU5SaHB1Y2lsSU16S1NTSQ==
 
 Kiintoisia CSS farameworkkeja ja kirjastoja: Bulma, Tachyons ja Animsition
