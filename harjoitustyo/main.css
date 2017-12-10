@@ -4,6 +4,11 @@
     background-color: #954DCB; 
 }
 
+article {
+    background-color: #D8BFEC;
+    box-shadow: 0px 10px 10px 10px #60288B; 
+}
+
 main {
     background-color: #D8BFEC;
     box-shadow: 0px 10px 10px 10px #60288B; 
@@ -12,6 +17,10 @@ main {
 footer {
     background-color: #1D0F28;
     color: #954DCB;
+}
+
+b {
+    word-wrap: break-word;
 }
 
 
@@ -161,17 +170,17 @@ ol li a:hover {
     margin: 1px;
 }
 
-.col-md-2 a {
+.col-sm-2 a {
     color: #1D0F28;
     cursor: pointer;
 }
 
-.col-md-2 a:hover {
+.col-sm-2 a:hover {
     color: #954DCB;
     text-decoration: none;
 }
 
-.col-md-2 a:visited {
+.col-sm-2 a:visited {
     color: #1D0F28;
     text-decoration: none;
 }
