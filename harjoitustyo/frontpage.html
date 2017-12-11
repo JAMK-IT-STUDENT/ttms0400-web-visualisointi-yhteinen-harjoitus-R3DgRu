@@ -160,7 +160,7 @@
         $(document).ready(function() {
             
             $("#card").click(function() {
-                $("#cards").css("display", "block");
+                $("#cards").fadeIn(500);
                 $("#card").addClass("active");
                 $("#text").removeClass("active");
                 $("#texts").css("display", "none");
@@ -169,7 +169,7 @@
             });
 
             $("#text").click(function() {
-                $("#texts").css("display", "block");
+                $("#texts").fadeIn(500);
                 $("#text").addClass("active");
                 $("#card").removeClass("active");
                 $("#cards").css("display", "none");
@@ -178,7 +178,7 @@
             });
             
             $("#list").click(function() {
-                $("#lists").css("display", "block");
+                $("#lists").fadeIn(500);
                 $("#list").addClass("active");
                 $("#text").removeClass("active");
                 $("#texts").css("display", "none");

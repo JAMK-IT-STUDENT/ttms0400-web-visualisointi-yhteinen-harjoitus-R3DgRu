@@ -1,6 +1,8 @@
 a {
     color: #252839;
     text-decoration: none;
+    transition: color 200ms, background-color 200ms;
+    transition-timing-function: ease-out;
 }
 
 a:hover {
@@ -10,10 +12,16 @@ a:hover {
 
 h1 {
     font-family: 'Londrina Outline', cursive;
+    -ms-transform: rotate(2deg); /* IE 9 */
+    -webkit-transform: rotate(2deg); /* Safari */
+    transform: rotate(2deg);
 }
 
 h3 {
     font-family: 'Ruda', sans-serif;
+    -ms-transform: rotate(-2deg); /* IE 9 */
+    -webkit-transform: rotate(-2deg); /* Safari */
+    transform: rotate(-2deg);
 }
 
 footer {

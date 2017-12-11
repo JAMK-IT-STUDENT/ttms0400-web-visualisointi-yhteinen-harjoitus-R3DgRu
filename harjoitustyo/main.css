@@ -1,3 +1,9 @@
+h1 {
+    -ms-transform: rotate(2deg); /* IE 9 */
+    -webkit-transform: rotate(2deg); /* Safari */
+    transform: rotate(2deg);
+}
+
 .animsition {
     color: #f2b632;
     font-family: 'Ruda', sans-serif;
@@ -7,13 +13,11 @@
 article {
     color: #252839;
     background-color: #b5b5b7;
-    box-shadow: 0px 10px 10px 10px #677077; 
 }
 
 main {
     color: #252839;
     background-color: #b5b5b7;
-    box-shadow: 0px 10px 10px 10px #677077;
 }
 
 footer {
@@ -52,6 +56,8 @@ b {
 .nav-link {
     color: #252839;
     background-color: #b5b5b7;
+    transition: color 200ms, background-color 200ms;
+    transition-timing-function: ease-out;
 }
 
 .nav-link:hover {
@@ -68,6 +74,8 @@ b {
 
 ol li a {
     color: #b5b5b7;
+    transition: color 200ms, background-color 200ms;
+    transition-timing-function: ease-out;
 }
 
 ol li a:hover {
@@ -171,6 +179,8 @@ ol li a:hover {
 .col-sm-2 a {
     color: #252839;
     cursor: pointer;
+    transition: color 200ms, background-color 200ms;
+    transition-timing-function: ease-out;
 }
 
 .col-sm-2 a:hover {
