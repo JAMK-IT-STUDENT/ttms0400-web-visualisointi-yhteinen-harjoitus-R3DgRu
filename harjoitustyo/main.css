@@ -2,22 +2,32 @@ h1 {
     -ms-transform: rotate(2deg); /* IE 9 */
     -webkit-transform: rotate(2deg); /* Safari */
     transform: rotate(2deg);
+    word-wrap: break-word;
 }
 
 .animsition {
     color: #f2b632;
     font-family: 'Ruda', sans-serif;
-    background-color: #252839; 
+    background-color: #252839;
+    background: -webkit-linear-gradient(-50deg, #677077, #252839);
+    background: -moz-linear-gradient(-50deg, #677077, #252839);
+    background: linear-gradient(-50deg, #677077, #252839);
 }
 
 article {
     color: #252839;
     background-color: #b5b5b7;
+    background: -webkit-linear-gradient(50deg, #677077, #b5b5b7);
+    background: -moz-linear-gradient(50deg, #677077, #b5b5b7);
+    background: linear-gradient(50deg, #677077, #b5b5b7);
 }
 
 main {
     color: #252839;
     background-color: #b5b5b7;
+    background: -webkit-linear-gradient(50deg, #677077, #b5b5b7);
+    background: -moz-linear-gradient(50deg, #677077, #b5b5b7);
+    background: linear-gradient(50deg, #677077, #b5b5b7);
 }
 
 footer {
@@ -92,6 +102,8 @@ ol li a:hover {
     box-shadow: none;
     cursor: pointer;
     border-radius: 10px;
+    transition: color 200ms, background-color 200ms;
+    transition-timing-function: ease-out;
 }
 
 #dropdown:hover {
@@ -122,6 +134,8 @@ ol li a:hover {
 #dropdown-list a {
     color: #252839;
     background-color: #b5b5b7;
+    transition: color 200ms, background-color 200ms;
+    transition-timing-function: ease-out;
 }
 
 #dropdown-list a:hover {
