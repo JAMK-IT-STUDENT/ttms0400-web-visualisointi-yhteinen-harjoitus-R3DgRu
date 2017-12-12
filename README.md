@@ -12,7 +12,7 @@ wikistä löytyy dokumentaatio
 
 ----------------------------------------
 
-Jostain syystä svg kuvan ei näy joten lisään ne myös png:nä.
+Jostain syystä svg kuvat ei näy joten lisään ne myös png:nä.
 
 ------------------------------------------
 
