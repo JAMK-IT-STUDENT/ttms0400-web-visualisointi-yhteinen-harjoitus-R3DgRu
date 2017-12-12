@@ -5,7 +5,9 @@ NIMI: Otto Savolainen
 ----------------------------------------
 
 OMA HARJOITUSTYÖ TULEE TÄNNE: http://student.labranet.jamk.fi/~K2534/web-visualisointi/
+
 ^^se löytyy myös tästä repositoriosta harjoitustyo-kansiosta^^
+
 wikistä löytyy dokumentaatio
 
 ----------------------------------------
