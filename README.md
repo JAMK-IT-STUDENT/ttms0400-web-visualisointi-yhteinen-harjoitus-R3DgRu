@@ -10,6 +10,8 @@ OMA HARJOITUSTYÖ TULEE TÄNNE: http://student.labranet.jamk.fi/~K2534/web-visua
 
 wikistä löytyy dokumentaatio
 
+tehtävät löytyvät osoitteesta http://student.labranet.jamk.fi/~K2534/web-visualisointi/harj
+
 ----------------------------------------
 
 Jostain syystä svg kuvat ei näy joten lisään ne myös png:nä.
