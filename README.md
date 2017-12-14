@@ -17,6 +17,7 @@ tehtävät löytyvät osoitteesta http://student.labranet.jamk.fi/~K2534/web-vis
 Jostain syystä svg kuvat ei näy joten lisään ne myös png:nä.
 
 ------------------------------------------
+VK40:
 
 Mockup linkki: https://www.fluidui.com/editor/live/preview/cF9JUDAzYVRmcFppeGtrd0xHeU5SaHB1Y2lsSU16S1NTSQ==
 
